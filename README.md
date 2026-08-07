@@ -8,7 +8,7 @@ Este proyecto integra un script de procesamiento en Python y un flujo de trabajo
 
 ## Estructura del Repositorio
 
-* **analisis_rapel.py**: Script principal en Python que automatiza la lectura de facturas en PDF, consume la API de OpenAI (GPT Vision) para extraer metadatos, aplica reglas de negocio locales y genera un reporte consolidado en Excel.
+* **analisis_rapel.py**: Script principal en Python que automatiza la lectura de facturas en PDF, consume la API de OpenAI para extraer metadatos, aplica reglas de negocio locales y genera un reporte consolidado en Excel.
 * **Protocolo Rapel.xlsx**: Archivo maestro de reglas que define los criterios de categorización de facturas, prioridades de asignación según antigüedad y códigos de artículo.
 * **Rapel_Automation_Flow_Export.zip**: Flujo de Power Automate exportado listo para importar, que actúa como conector y disparador de los procesos de validación de datos.
 
